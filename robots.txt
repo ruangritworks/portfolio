@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ruangritworks.github.io/portfolio/sitemap.xml
