@@ -32,11 +32,11 @@ Do not choose a branch-based Jekyll publishing source for this production site.
 - index.html: portfolio text, professional experience, skills, and contact links.
 - styles.css: layout, colors, responsive styles, and focus states.
 - resume.html: printable, selectable-text resume.
-- files/Ruangrit-Srimuang-Resume.pdf: downloadable resume generated from resume.html.
+- files/Ruangrit-Srimuang-Resume.pdf: the user-provided, downloadable resume PDF.
 - favicon.svg: website icon.
 - robots.txt and sitemap.xml: public site discovery.
 
-When editing resume content, keep index.html and resume.html consistent and regenerate the PDF. Browser printing with A4 and headers/footers disabled can generate it. The current PDF is a typeset version of the supplied resume information, not the original image.
+To replace the downloadable resume, copy your own exported PDF to files/Ruangrit-Srimuang-Resume.pdf, keeping this exact filename. The portfolio download links and publishing workflow use it. The current download is the user-provided PDF; do not regenerate it from resume.html unless intentionally replacing it. Online resume text in index.html and resume.html must be updated separately if the content changes.
 
 If the hosting URL changes, update the canonical and Open Graph URLs in index.html, the home link in 404.html, robots.txt, and sitemap.xml.
 
