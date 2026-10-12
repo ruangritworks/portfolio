@@ -32,11 +32,13 @@ Do not choose a branch-based Jekyll publishing source for this production site.
 - index.html: portfolio text, professional experience, skills, and contact links.
 - styles.css: layout, colors, responsive styles, and focus states.
 - resume.html: printable, selectable-text resume.
-- files/Ruangrit-Srimuang-Resume.pdf: the user-provided, downloadable resume PDF.
+- files/Ruangrit_Resume_DE.pdf: the latest user-provided Data Engineer resume PDF.
 - favicon.svg: website icon.
 - robots.txt and sitemap.xml: public site discovery.
 
-To replace the downloadable resume, copy your own exported PDF to files/Ruangrit-Srimuang-Resume.pdf, keeping this exact filename. The portfolio download links and publishing workflow use it. The current download is the user-provided PDF; do not regenerate it from resume.html unless intentionally replacing it. Online resume text in index.html and resume.html must be updated separately if the content changes.
+To replace the downloadable resume, copy your own exported PDF to files/Ruangrit_Resume_DE.pdf, keeping this exact filename. The portfolio download links and publishing workflow use it. The current download is the user-provided PDF; do not regenerate it from resume.html unless intentionally replacing it. Online resume text in index.html and resume.html must be updated separately if the content changes.
+
+The October 2026 content update includes the Budget Office assignment, full-time availability from 1 November 2026, GPA, and technical skills from that PDF. The Budget Management System project links to https://github.com/ruangritworks/budget-management-system.
 
 If the hosting URL changes, update the canonical and Open Graph URLs in index.html, the home link in 404.html, robots.txt, and sitemap.xml.
 

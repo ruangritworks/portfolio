@@ -31,7 +31,7 @@ def check(root):
     pages = {}
     required = ("index.html", "styles.css", "favicon.svg", "resume.html",
                 "404.html", "robots.txt", "sitemap.xml", ".nojekyll",
-                "files/Ruangrit-Srimuang-Resume.pdf")
+                "files/Ruangrit_Resume_DE.pdf")
     for name in required:
         if not (root / name).is_file():
             errors.append(f"Missing production file: {name}")
@@ -62,7 +62,7 @@ def check(root):
             if parsed.fragment and target in pages:
                 if unquote(parsed.fragment) not in pages[target].ids:
                     errors.append(f"{name}: missing anchor {link}")
-    pdf = root / "files/Ruangrit-Srimuang-Resume.pdf"
+    pdf = root / "files/Ruangrit_Resume_DE.pdf"
     if pdf.is_file():
         with pdf.open("rb") as stream:
             if stream.read(5) != b"%PDF-":

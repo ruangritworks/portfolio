@@ -29,7 +29,7 @@ jobs:
         run: |
           mkdir -p _site/files
           cp index.html styles.css favicon.svg resume.html 404.html robots.txt sitemap.xml .nojekyll _site/
-          cp files/Ruangrit-Srimuang-Resume.pdf _site/files/
+          cp files/Ruangrit_Resume_DE.pdf _site/files/
           python3 scripts/check_site.py _site
       - name: Upload website
         uses: actions/upload-pages-artifact@v4
